@@ -1,0 +1,80 @@
+@font-face {
+    font-family: TimerFont;
+    src: url(CursedTimerUlil-Aznm.ttf);
+}
+
+body {
+    margin: 0;
+    background-image: url("background.avif");
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1B244A;
+    margin: 150px auto 10px auto;
+    width: 575px;
+    height: 385px;
+}
+
+h3{
+    color: #EEE;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 68px;
+    margin-bottom: 21px;
+}
+
+.score{
+    border: #080001 solid 1px;
+    border-radius: 5px;
+    background-color: #080001;
+    color: #F94F6D;
+    font-family:TimerFont;
+    font-size: 90px;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 21px;
+    margin-bottom: 26px;
+}
+
+button{
+    background-color: #1B244A;
+    border: 2px solid #9AABD8;
+    color: #9AABD8;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-bottom: 26px;
+}
+
+.btn{
+    text-align: center;
+    font-family: TimerFont;
+    font-weight: 400;
+}
+
+button:hover{
+    background-color: rgb(245, 91, 91);
+    font-weight: 900;
+}
+
+
+.reset{
+    text-align: center;
+    margin-top: 2px;
+}
+
+.reset button{
+    background-color: rgb(55, 151, 55);
+    color: rgb(59, 42, 42);
+    width: 575px;
+    height: 40px;
+    font-size: 30px;
+}
+
+.reset button:hover{
+    background-color: rgb(5, 203, 5);
+}
